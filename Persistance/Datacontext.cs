@@ -10,6 +10,9 @@ namespace Persistance
 
         }
         public DbSet<Post> Posts { get; set; }
+        public DbSet<CategoryList> CategoryList { get; set; }
+        
+        
 
 
     }

@@ -10,6 +10,13 @@ namespace Domain
         public string Description { get; set; }
         
         public string Sizes { get; set; }
+
+
+        public int price { get; set; }
+        public string category { get; set; }
+        
+        
+        
         
         
          }
